@@ -1,0 +1,21 @@
+[
+  {
+    "id": "EXAMPLE-1 (replace with a real question from YOUR documents)",
+    "question": "…",
+    "reference_answer": "…",
+    "answerable": true,
+    "type": "answerable | reworded | multi_part | unanswerable",
+    "source_document": "exact_file_name.pdf",
+    "source_pages": [3],
+    "note": "source_pages = PDF page numbers (or DOCX section numbers) that contain the answer"
+  },
+  {
+    "id": "EXAMPLE-2",
+    "question": "A question the documents cannot answer",
+    "reference_answer": "REFUSE",
+    "answerable": false,
+    "type": "unanswerable",
+    "source_document": null,
+    "source_pages": []
+  }
+]

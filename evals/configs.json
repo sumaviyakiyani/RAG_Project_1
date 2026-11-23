@@ -1,0 +1,4 @@
+[
+  {"name": "A_chunk500_overlap50",  "chunk_size": 500,  "chunk_overlap": 50,  "top_k": 5, "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"},
+  {"name": "B_chunk1000_overlap150", "chunk_size": 1000, "chunk_overlap": 150, "top_k": 5, "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"}
+]

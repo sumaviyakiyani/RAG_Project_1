@@ -1,0 +1,262 @@
+[
+  {
+    "id": "Q001",
+    "question": "Where is Greenfield University Library located?",
+    "reference_answer": "It is in Building A, on the first floor.",
+    "answerable": true,
+    "type": "answerable",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[0], B=[0]."
+  },
+  {
+    "id": "Q002",
+    "question": "Until what time can students use the library on weekdays?",
+    "reference_answer": "Monday through Friday, the library is open from 8:00 AM to 8:00 PM.",
+    "answerable": true,
+    "type": "reworded",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[0], B=[0]."
+  },
+  {
+    "id": "Q003",
+    "question": "What are the library's Saturday hours, and is it open on Sunday?",
+    "reference_answer": "On Saturday it is open from 9:00 AM to 4:00 PM; on Sunday it is closed.",
+    "answerable": true,
+    "type": "multi_part",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[0], B=[0]."
+  },
+  {
+    "id": "Q004",
+    "question": "How many books may a student borrow at once, and what is the standard loan period?",
+    "reference_answer": "A student may borrow up to 5 books at a time for 14 days.",
+    "answerable": true,
+    "type": "multi_part",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[0], B=[0]."
+  },
+  {
+    "id": "Q005",
+    "question": "Can a library book be renewed, and what condition applies?",
+    "reference_answer": "A book may be renewed once for another 14 days, provided no other student has reserved it.",
+    "answerable": true,
+    "type": "reworded",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[1], B=[0]."
+  },
+  {
+    "id": "Q006",
+    "question": "What is the fine for returning a library book late?",
+    "reference_answer": "The fine is Rs. 50 per book per day.",
+    "answerable": true,
+    "type": "answerable",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[1], B=[0]."
+  },
+  {
+    "id": "Q007",
+    "question": "What must a student show to borrow library books?",
+    "reference_answer": "The student must show their university ID card.",
+    "answerable": true,
+    "type": "answerable",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[1], B=[0]."
+  },
+  {
+    "id": "Q008",
+    "question": "In which building and room is the IT Support Office?",
+    "reference_answer": "It is in Building B, Room 204.",
+    "answerable": true,
+    "type": "answerable",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[1], B=[0]."
+  },
+  {
+    "id": "Q009",
+    "question": "When is the IT Support Office open during the week?",
+    "reference_answer": "It is open Monday through Friday, 9:00 AM to 5:00 PM.",
+    "answerable": true,
+    "type": "reworded",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[1], B=[0]."
+  },
+  {
+    "id": "Q010",
+    "question": "Which kinds of problems can students take to IT Support?",
+    "reference_answer": "IT Support can help with university email account problems, Wi-Fi connection issues, Learning Management System (LMS) access, and password reset requests.",
+    "answerable": true,
+    "type": "multi_part",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[2], B=[1]."
+  },
+  {
+    "id": "Q011",
+    "question": "What email address does the contact table list for IT Support?",
+    "reference_answer": "support@greenfield.example",
+    "answerable": true,
+    "type": "answerable",
+    "source_document": "University.docx",
+    "source_pages": [2],
+    "note": "Source: Section 2: Tables. Chunk positions by eval config: A=[6], B=[3]."
+  },
+  {
+    "id": "Q012",
+    "question": "How long does IT Support usually take to send an initial response?",
+    "reference_answer": "Most support requests receive an initial response within 2 working days.",
+    "answerable": true,
+    "type": "reworded",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[2], B=[1]."
+  },
+  {
+    "id": "Q013",
+    "question": "What three conditions must an undergraduate meet to qualify for the Merit Scholarship?",
+    "reference_answer": "The student must have a minimum CGPA of 3.70, be a full-time undergraduate, and have no disciplinary record.",
+    "answerable": true,
+    "type": "multi_part",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[3], B=[1]."
+  },
+  {
+    "id": "Q014",
+    "question": "How much tuition does the Merit Scholarship cover, and for how long?",
+    "reference_answer": "It covers 25% of the tuition fee for one semester.",
+    "answerable": true,
+    "type": "multi_part",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[3], B=[1]."
+  },
+  {
+    "id": "Q015",
+    "question": "Where should students submit a Merit Scholarship application?",
+    "reference_answer": "They should submit it to the Student Affairs Office.",
+    "answerable": true,
+    "type": "answerable",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[3], B=[1]."
+  },
+  {
+    "id": "Q016",
+    "question": "What is the application deadline for the Fall 2026 Merit Scholarship?",
+    "reference_answer": "The deadline is August 15, 2026.",
+    "answerable": true,
+    "type": "answerable",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[3], B=[1, 2]."
+  },
+  {
+    "id": "Q017",
+    "question": "Will the university consider a scholarship application submitted after the deadline?",
+    "reference_answer": "No. Scholarship applications submitted after the deadline will not be considered.",
+    "answerable": true,
+    "type": "reworded",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[3], B=[1, 2]."
+  },
+  {
+    "id": "Q018",
+    "question": "Where is the Student Affairs Office?",
+    "reference_answer": "It is in Building C, Room 101.",
+    "answerable": true,
+    "type": "answerable",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[4], B=[2]."
+  },
+  {
+    "id": "Q019",
+    "question": "What are the Student Affairs Office's weekday hours?",
+    "reference_answer": "It is open Monday through Friday, 9:00 AM to 4:00 PM.",
+    "answerable": true,
+    "type": "answerable",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[4], B=[2]."
+  },
+  {
+    "id": "Q020",
+    "question": "What types of matters does the Student Affairs Office handle?",
+    "reference_answer": "It handles scholarship applications, student ID card issues, student complaints, and extracurricular activity permissions.",
+    "answerable": true,
+    "type": "multi_part",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[4], B=[2]."
+  },
+  {
+    "id": "Q021",
+    "question": "What should a student bring when visiting the Student Affairs Office?",
+    "reference_answer": "The student should bring their university ID card.",
+    "answerable": true,
+    "type": "reworded",
+    "source_document": "University.docx",
+    "source_pages": [1],
+    "note": "Source: Section 1: Start of document. Chunk positions by eval config: A=[4], B=[2]."
+  },
+  {
+    "id": "Q022",
+    "question": "What is Greenfield University's mascot?",
+    "reference_answer": "REFUSE",
+    "answerable": false,
+    "type": "unanswerable",
+    "source_document": null,
+    "source_pages": [],
+    "note": "The supplied guide does not state the university mascot."
+  },
+  {
+    "id": "Q023",
+    "question": "What is the total tuition cost for a full academic year?",
+    "reference_answer": "REFUSE",
+    "answerable": false,
+    "type": "unanswerable",
+    "source_document": null,
+    "source_pages": [],
+    "note": "The supplied guide gives a scholarship percentage but no total tuition cost."
+  },
+  {
+    "id": "Q024",
+    "question": "What are the library's opening hours on public holidays?",
+    "reference_answer": "REFUSE",
+    "answerable": false,
+    "type": "unanswerable",
+    "source_document": null,
+    "source_pages": [],
+    "note": "The supplied guide lists weekday, Saturday, and Sunday hours but not public-holiday hours."
+  },
+  {
+    "id": "Q025",
+    "question": "On what date is the university's graduation ceremony?",
+    "reference_answer": "REFUSE",
+    "answerable": false,
+    "type": "unanswerable",
+    "source_document": null,
+    "source_pages": [],
+    "note": "The supplied guide does not state a graduation date."
+  },
+  {
+    "id": "Q026",
+    "question": "How many students are enrolled at Greenfield University?",
+    "reference_answer": "REFUSE",
+    "answerable": false,
+    "type": "unanswerable",
+    "source_document": null,
+    "source_pages": [],
+    "note": "The supplied guide does not state student enrollment."
+  }
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Production RAG Service</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ask your documents</h1>
+    <p>Upload PDF or DOCX files. Every answer cites the pages it came from, or says it cannot answer.</p>
+  </header>
+  <main>
+    <aside aria-label="Documents">
+      <h2>Documents</h2>
+      <label class="drop" for="file">
+        <span>Choose a PDF or DOCX</span>
+        <input id="file" type="file" accept=".pdf,.docx">
+      </label>
+      <p id="upload-status" role="status"></p>
+      <ul id="docs"></ul>
+      <p id="docs-empty" class="muted">No documents yet. Upload one to begin.</p>
+    </aside>
+    <section aria-label="Chat">
+      <div id="chat" aria-live="polite"></div>
+      <form id="ask-form">
+        <label for="question" class="sr">Your question</label>
+        <input id="question" type="text" placeholder="Ask something about your documents" autocomplete="off" maxlength="1000" required>
+        <button type="submit" id="ask-btn">Ask</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

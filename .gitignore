@@ -1,0 +1,16 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+data/chroma/
+data/notebook_chroma/
+data/corpus/*
+!data/corpus/.gitkeep
+evals/results/*
+!evals/results/.gitkeep
+.DS_Store
+.env.*
+!.env.example
